@@ -28,5 +28,5 @@ Route::get('team', 'UsersController@team');
 Route::get('reports', 'UsersController@reports');
 Route::get('journeys', 'UsersController@journeys');
 
-//Route::resource('users', 'UsersController');
+Route::resource('users', 'UsersController');
 
