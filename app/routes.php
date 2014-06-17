@@ -47,9 +47,9 @@ Route::get('/reports', function()
     return View::make('users/reports');
 });
 
-Route::get('/journey', function()
+Route::get('/journeys', function()
 {
-    return View::make('users/journey');
+    return View::make('users/journeys');
 });
 
 Route::get('/vehicles', function()
