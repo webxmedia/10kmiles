@@ -14,99 +14,19 @@
 Route::get('/', 'PagesController@home');
 
 
-Route::get('/test', function()
-{
-	return View::make('public/index');
-});
+Route::get('tour', 'PublicController@tour');
+Route::get('signup', 'PublicController@signup');
+Route::get('features', 'PublicController@features');
+Route::get('pricing', 'PublicController@pricing');
+Route::get('contact', 'PublicController@contact');
+Route::get('login', 'PublicController@login');
 
-Route::get('/users', function()
-{
-    return View::make('users/index');
-});
+Route::get('users', 'UsersController@index');
+Route::get('logout', 'UsersController@logout');
+Route::get('vehicles', 'UsersController@vehicles');
+Route::get('team', 'UsersController@team');
+Route::get('reports', 'UsersController@reports');
+Route::get('journeys', 'UsersController@journeys');
 
+//Route::resource('users', 'UsersController');
 
-Route::get('/signup', function()
-{
-    return View::make('public/signup');
-});
-
-Route::get('/tour', function()
-{
-    return View::make('public/tour');
-});
-
-Route::get('/features', function()
-{
-    return View::make('public/features');
-});
-
-Route::get('/pricing', function()
-{
-    return View::make('public/pricing');
-});
-
-Route::get('/reports', function()
-{
-    return View::make('users/reports');
-});
-
-Route::get('/journeys', function()
-{
-    return View::make('users/journeys');
-});
-
-Route::get('/vehicles', function()
-{
-    return View::make('users/vehicles');
-});
-
-Route::get('/team', function()
-{
-    return View::make('users/team');
-});
-
-Route::get('/users', function()
-{
-    return View::make('users/index');
-});
-
-
-Route::get('/signup', function()
-{
-    return View::make('public/signup');
-});
-
-Route::get('/tour', function()
-{
-    return View::make('public/tour');
-});
-
-Route::get('/features', function()
-{
-    return View::make('public/features');
-});
-
-Route::get('/pricing', function()
-{
-    return View::make('public/pricing');
-});
-
-Route::get('/reports', function()
-{
-    return View::make('users/reports');
-});
-
-Route::get('/journeys', function()
-{
-    return View::make('users/journeys');
-});
-
-Route::get('/vehicles', function()
-{
-    return View::make('users/vehicles');
-});
-
-Route::get('/team', function()
-{
-    return View::make('users/team');
-});
