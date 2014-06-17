@@ -16,9 +16,6 @@ Route::get('/', 'PagesController@home');
 
 Route::get('/test', function()
 {
-<<<<<<< HEAD
-    return View::make('test');
-=======
 	return View::make('public/index');
 });
 
@@ -66,5 +63,50 @@ Route::get('/vehicles', function()
 Route::get('/team', function()
 {
     return View::make('users/team');
->>>>>>> FETCH_HEAD
+});
+
+Route::get('/users', function()
+{
+    return View::make('users/index');
+});
+
+
+Route::get('/signup', function()
+{
+    return View::make('public/signup');
+});
+
+Route::get('/tour', function()
+{
+    return View::make('public/tour');
+});
+
+Route::get('/features', function()
+{
+    return View::make('public/features');
+});
+
+Route::get('/pricing', function()
+{
+    return View::make('public/pricing');
+});
+
+Route::get('/reports', function()
+{
+    return View::make('users/reports');
+});
+
+Route::get('/journeys', function()
+{
+    return View::make('users/journeys');
+});
+
+Route::get('/vehicles', function()
+{
+    return View::make('users/vehicles');
+});
+
+Route::get('/team', function()
+{
+    return View::make('users/team');
 });
