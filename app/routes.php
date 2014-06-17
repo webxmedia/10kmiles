@@ -13,10 +13,31 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('public/index');
 });
 
 Route::get('/users', function()
 {
     return View::make('users/index');
+});
+
+
+Route::get('/signup', function()
+{
+    return View::make('public/signup');
+});
+
+Route::get('/tour', function()
+{
+    return View::make('public/tour');
+});
+
+Route::get('/features', function()
+{
+    return View::make('public/features');
+});
+
+Route::get('/pricing', function()
+{
+    return View::make('public/pricing');
 });
