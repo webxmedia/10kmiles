@@ -21,6 +21,7 @@ Route::get('pricing', 'PublicController@pricing');
 Route::get('contact', 'PublicController@contact');
 Route::get('login', 'PublicController@login');
 
+Route::get('users', 'UsersController@index');
 Route::get('logout', 'UsersController@logout');
 Route::get('vehicles', 'UsersController@vehicles');
 Route::get('team', 'UsersController@team');
