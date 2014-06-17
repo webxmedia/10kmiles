@@ -41,3 +41,23 @@ Route::get('/pricing', function()
 {
     return View::make('public/pricing');
 });
+
+Route::get('/reports', function()
+{
+    return View::make('users/reports');
+});
+
+Route::get('/journey', function()
+{
+    return View::make('users/journey');
+});
+
+Route::get('/vehicles', function()
+{
+    return View::make('users/vehicles');
+});
+
+Route::get('/team', function()
+{
+    return View::make('users/team');
+});
