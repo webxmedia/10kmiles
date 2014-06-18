@@ -67,11 +67,6 @@ class UsersController extends \BaseController {
 	 */
 	public function create()
 	{
-        $user = new User;
-        $user->username = Input::get('username');
-        $user->password = Hash::make(Input::get('password'));
-        $user->save();
-
         return View::make('users/create');
 	}
 
@@ -83,6 +78,11 @@ class UsersController extends \BaseController {
 	 */
 	public function store()
 	{
+        $user = new User;
+        $user->username = Input::get('username');
+        $user->password = Hash::make(Input::get('password'));
+        $user->save();
+        
         return View::make('users/create');
 	}
 
