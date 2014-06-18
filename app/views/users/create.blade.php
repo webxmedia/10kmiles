@@ -2,13 +2,14 @@
 
 @section('content')
     <h1>Create new account</h1>
+    <br />
 
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+            <h3 class="panel-title">Create new team member</h3>
         </div>
         <div class="panel-body">
-
+            <br />
             {{ Form::open(['route' => 'users.store', 'class' => 'form-horizontal']) }}
             <div class="form-group">
                 {{ Form::label('username', 'Username: ', array('class' => 'col-sm-2 control-label')) }}
