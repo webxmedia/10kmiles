@@ -79,8 +79,8 @@ class UsersController extends \BaseController {
 	public function store()
 	{
         $user = new User;
-        $user->username = Input::get('username');
-        $user->password = Input::get('password');
+        $user->username = '123';
+        $user->password = '123';
         $user->save();
 
         return View::make('users/create');
