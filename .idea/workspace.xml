@@ -64,8 +64,10 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="64" selection-start="760" selection-end="760" vertical-scroll-proportion="0.29829547" vertical-offset="0" max-vertical-offset="1056">
-              <folding />
+            <state line="7" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09943182" vertical-offset="0" max-vertical-offset="1056">
+              <folding>
+                <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -662,8 +664,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="64" selection-start="760" selection-end="760" vertical-scroll-proportion="0.29829547" vertical-offset="0" max-vertical-offset="1056">
-          <folding />
+        <state line="7" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09943182" vertical-offset="0" max-vertical-offset="1056">
+          <folding>
+            <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,11 +5,11 @@
 
     <table class="table table-striped table-hover">
         <tr>
-            <th>&nbsp;</td>
+            <th style="width: 30px;">&nbsp;</td>
             <th>Make</td>
             <th>Model</td>
             <th>Fuel</td>
-            <th>&nbsp;</td>
+            <th style="width: 120px;">&nbsp;</td>
         </tr>
         @foreach ($users as $user)
             <tr>
