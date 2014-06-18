@@ -14,7 +14,7 @@
             <th style="width: 130px;">&nbsp;</td>
         </tr>
         @foreach ($users as $user)
-            <tr style="line-height: 47px;">
+            <tr style="vertical-align:middle;">
                 <td><img src="http://placehold.it/25x25" alt="..." class="img-rounded"></td>
                 <td>{{ $user->username }}</td>
                 <td>{{ $user->username }}</td>
