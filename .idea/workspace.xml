@@ -64,10 +64,10 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="408" selection-end="408" vertical-scroll-proportion="0.19886364" vertical-offset="0" max-vertical-offset="1056">
+            <state line="22" column="24" selection-start="742" selection-end="742" vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="1056">
               <folding>
                 <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#6;n#tr#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -666,10 +666,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="408" selection-end="408" vertical-scroll-proportion="0.19886364" vertical-offset="0" max-vertical-offset="1056">
+        <state line="22" column="24" selection-start="742" selection-end="742" vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="1056">
           <folding>
             <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>

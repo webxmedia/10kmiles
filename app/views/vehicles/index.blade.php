@@ -9,6 +9,8 @@
             <th>Make</td>
             <th>Model</td>
             <th>Fuel</td>
+            <th>Mileage</td>
+            <th>Cost</td>
             <th style="width: 130px;">&nbsp;</td>
         </tr>
         @foreach ($users as $user)
@@ -17,6 +19,8 @@
                 <td>{{ $user->username }}</td>
                 <td>{{ $user->username }}</td>
                 <td>Petrol</td>
+                <td>Mileage</td>
+                <td>Cost</td>
                 <td>
                     <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button>&nbsp;
                     <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-minus-circle"></i></button>&nbsp;
