@@ -5,14 +5,14 @@
 
     {{ Form::open(['route' => 'users.store', 'class' => 'form-horizontal']) }}
         <div class="form-group">
-            {{ Form::label('username', 'Username: ') }}
+            {{ Form::label('username', 'Username: ', array('class' => 'col-sm-2 control-label')) }}
             <div class="col-sm-10">
                 {{ Form::text('username') }}
             </div>
         </div>
 
         <div class="form-group">
-            {{ Form::label('password', 'Password: ') }}
+            {{ Form::label('password', 'Password: ', array('class' => 'col-sm-2 control-label')) }}
             <div class="col-sm-10">
                 {{ Form::password('password') }}
             </div>
