@@ -13,7 +13,10 @@
             <tr>
                 <td>{{ $user->username }}</td>
                 <td>{{ $user->username }}</td>
-                <td><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button> <button type="button" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></button></td>
+                <td>
+                    <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button>&nbsp;
+                    <button type="button" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></button>
+                </td>
             </tr>
         @endforeach
     </table>
