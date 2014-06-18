@@ -19,8 +19,8 @@
                 <td style="vertical-align:middle;">{{ $user->username }}</td>
                 <td style="vertical-align:middle;">{{ $user->username }}</td>
                 <td style="vertical-align:middle;">Petrol</td>
-                <td style="vertical-align:middle;">Mileage</td>
-                <td style="vertical-align:middle;">Cost</td>
+                <td style="vertical-align:middle;">69,500</td>
+                <td style="vertical-align:middle;">£10,000</td>
                 <td style="vertical-align:middle;">
                     <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button>&nbsp;
                     <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-minus-circle"></i></button>&nbsp;

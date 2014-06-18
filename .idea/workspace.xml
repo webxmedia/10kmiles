@@ -64,7 +64,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="50" selection-start="489" selection-end="489" vertical-scroll-proportion="0.24147727" vertical-offset="0" max-vertical-offset="1056">
+            <state line="21" column="57" selection-start="839" selection-end="839" vertical-scroll-proportion="0.29829547" vertical-offset="0" max-vertical-offset="1056">
               <folding>
                 <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#6;n#tr#0;n#table#0;n#!!top" expanded="true" />
@@ -672,7 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="489" selection-end="489" vertical-scroll-proportion="0.24147727" vertical-offset="0" max-vertical-offset="1056">
+        <state line="21" column="57" selection-start="839" selection-end="839" vertical-scroll-proportion="0.29829547" vertical-offset="0" max-vertical-offset="1056">
           <folding>
             <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#6;n#tr#0;n#table#0;n#!!top" expanded="true" />
