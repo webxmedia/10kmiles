@@ -7,11 +7,13 @@
         <tr>
             <th>Make</td>
             <th>Model</td>
+            <th>&nbsp;</td>
         </tr>
         @foreach ($users as $user)
             <tr>
                 <td>{{ $user->username }}</td>
                 <td>{{ $user->username }}</td>
+                <td><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button></td>
             </tr>
         @endforeach
     </table>
