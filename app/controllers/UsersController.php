@@ -79,7 +79,7 @@ class UsersController extends \BaseController {
 	public function store()
 	{
         $user = new User;
-        $user->username = '123';
+        $user->username = Input::get('username');
         $user->password = '123';
         $user->save();
 
