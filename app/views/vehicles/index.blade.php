@@ -9,10 +9,10 @@
             <th>Make</td>
             <th>Model</td>
             <th>Fuel</td>
-            <th style="width: 120px;">&nbsp;</td>
+            <th style="width: 130px;">&nbsp;</td>
         </tr>
         @foreach ($users as $user)
-            <tr>
+            <tr style="line-height: 47px;">
                 <td><img src="http://placehold.it/25x25" alt="..." class="img-rounded"></td>
                 <td>{{ $user->username }}</td>
                 <td>{{ $user->username }}</td>

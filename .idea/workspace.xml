@@ -64,9 +64,11 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09943182" vertical-offset="0" max-vertical-offset="1056">
+            <state line="14" column="41" selection-start="408" selection-end="408" vertical-scroll-proportion="0.19886364" vertical-offset="0" max-vertical-offset="1056">
               <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,8 +157,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="925" />
-    <option name="y" value="67" />
+    <option name="x" value="1147" />
+    <option name="y" value="398" />
     <option name="width" value="1623" />
     <option name="height" value="1223" />
   </component>
@@ -414,7 +416,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="925" y="67" width="1623" height="1223" extended-state="0" />
+    <frame x="1147" y="398" width="1623" height="1223" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -664,9 +666,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09943182" vertical-offset="0" max-vertical-offset="1056">
+        <state line="14" column="41" selection-start="408" selection-end="408" vertical-scroll-proportion="0.19886364" vertical-offset="0" max-vertical-offset="1056">
           <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
