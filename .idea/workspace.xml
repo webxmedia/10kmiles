@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a3ba8a5-edfc-455b-b2ff-18fd4648cef5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" />
     </list>
     <ignored path="10kmiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="5" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-28.125" vertical-offset="510" max-vertical-offset="2160">
+            <state line="82" column="60" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.5837188" vertical-offset="599" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="596" selection-end="596" vertical-scroll-proportion="0.33302498" vertical-offset="0" max-vertical-offset="1081">
+            <state line="13" column="6" selection-start="333" selection-end="333" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -77,15 +77,15 @@
         <option value="$PROJECT_DIR$/app/views/layouts/public.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/users.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="920" />
-    <option name="y" value="329" />
+    <option name="x" value="957" />
+    <option name="y" value="67" />
     <option name="width" value="1623" />
     <option name="height" value="1223" />
   </component>
@@ -258,7 +258,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="920" y="329" width="1623" height="1223" extended-state="0" />
+    <frame x="957" y="67" width="1623" height="1223" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -483,16 +483,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="5" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-28.125" vertical-offset="510" max-vertical-offset="2160">
+        <state line="13" column="6" selection-start="333" selection-end="333" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="596" selection-end="596" vertical-scroll-proportion="0.33302498" vertical-offset="0" max-vertical-offset="1081">
+        <state line="82" column="60" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.5837188" vertical-offset="599" max-vertical-offset="2250">
           <folding />
         </state>
       </provider>
