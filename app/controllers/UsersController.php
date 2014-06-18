@@ -9,8 +9,9 @@ class UsersController extends \BaseController {
 	 */
 	public function index()
 	{
-		$users = User::all();
-        return View::make('users/index', ['users' => $users]);
+		//$users = User::all();
+        //return View::make('users/index', ['users' => $users]);
+        dd($users);
 
 	}
 
@@ -78,20 +79,6 @@ class UsersController extends \BaseController {
 	 */
 	public function store()
 	{
-        /*
-        User::create([
-            'username' => Input::get('username'),
-            'password' => Hash::make(Input::get('password'))
-        ]);
-        */
-        /*
-        $user = new User;
-        $user->username = Input::get('username');
-        $user->password = Hash::make(Input::get('password'));
-        $user->save();
-        */
-
-        //return Redirect::route('users/create');
         return View::make('users/create');
 	}
 
