@@ -91,7 +91,8 @@ class UsersController extends \BaseController {
         $user->save();
         */
 
-        return Redirect::route('users/create');
+        //return Redirect::route('users/create');
+        return View::make('users/create');
 	}
 
 
