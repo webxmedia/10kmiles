@@ -22,8 +22,8 @@ class UsersController extends \BaseController {
      */
     public function vehicles()
     {
-        $users = User::all();
-        return View::make('users/index', ['users' => $users]);
+        //$users = User::all();
+        return View::make('users/vehicles');
     }
 
 
