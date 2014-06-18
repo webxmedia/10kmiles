@@ -80,9 +80,9 @@ class UsersController extends \BaseController {
 	{
         $user = new User;
         $user->username = Input::get('username');
-        $user->password = Hash::make(Input::get('password'));
+        $user->password = Input::get('password');
         $user->save();
-        
+
         return View::make('users/create');
 	}
 
