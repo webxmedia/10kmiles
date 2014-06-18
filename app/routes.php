@@ -23,10 +23,10 @@ Route::get('login', 'PublicController@login');
 
 
 Route::get('logout', 'UsersController@logout');
-Route::get('vehicles', 'UsersController@vehicles');
 Route::get('team', 'UsersController@team');
 Route::get('reports', 'UsersController@reports');
 Route::get('journeys', 'UsersController@journeys');
 
 
 Route::resource('users', 'UsersController');
+Route::resource('vehicles', 'VehiclesController');
