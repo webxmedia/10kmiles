@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a3ba8a5-edfc-455b-b2ff-18fd4648cef5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" />
-    </list>
+    <list default="true" id="2a3ba8a5-edfc-455b-b2ff-18fd4648cef5" name="Default" comment="" />
     <ignored path="10kmiles.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +35,7 @@
       <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="62" selection-start="244" selection-end="244" vertical-scroll-proportion="0.15263645" vertical-offset="15" max-vertical-offset="2085">
+            <state line="20" column="23" selection-start="331" selection-end="331" vertical-scroll-proportion="0.26364478" vertical-offset="15" max-vertical-offset="2085">
               <folding />
             </state>
           </provider>
@@ -581,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="244" selection-end="244" vertical-scroll-proportion="0.15263645" vertical-offset="15" max-vertical-offset="2085">
+        <state line="20" column="23" selection-start="331" selection-end="331" vertical-scroll-proportion="0.26364478" vertical-offset="15" max-vertical-offset="2085">
           <folding />
         </state>
       </provider>
