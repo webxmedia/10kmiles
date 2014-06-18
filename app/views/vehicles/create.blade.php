@@ -21,7 +21,7 @@
             <div class="form-group">
                 {{ Form::label('model', 'Model: ', array('class' => 'col-sm-2 control-label')) }}
                 <div class="col-sm-10">
-                    {{ Form::text('model', array('class' => 'form-control')) }}
+                    {{ Form::text('model', null, array('class' => 'form-control')) }}
                 </div>
             </div>
 
