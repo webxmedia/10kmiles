@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="224" selection-end="224" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="2160">
+            <state line="82" column="57" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.12098299" vertical-offset="1102" max-vertical-offset="2160">
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.4536862" vertical-offset="0" max-vertical-offset="1058">
+            <state line="37" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/users.blade.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/views/users/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/app/views/users/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
       </list>
     </option>
   </component>
@@ -561,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/public/tour.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="449" selection-end="449" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="435">
@@ -596,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="224" selection-end="224" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="2160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="41" selection-start="603" selection-end="603" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="540">
@@ -621,7 +607,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.4536862" vertical-offset="0" max-vertical-offset="1058">
+        <state line="37" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/public/tour.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="449" selection-end="449" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="57" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.12098299" vertical-offset="1102" max-vertical-offset="2160">
           <folding />
         </state>
       </provider>
