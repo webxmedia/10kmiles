@@ -55,7 +55,7 @@
       <file leaf-file-name="create.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="39" selection-start="358" selection-end="358" vertical-scroll-proportion="0.18038853" vertical-offset="0" max-vertical-offset="1081">
+            <state line="28" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.38852915" vertical-offset="0" max-vertical-offset="1081">
               <folding />
             </state>
           </provider>
@@ -121,8 +121,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="957" />
-    <option name="y" value="67" />
+    <option name="x" value="711" />
+    <option name="y" value="81" />
     <option name="width" value="1623" />
     <option name="height" value="1223" />
   </component>
@@ -357,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="957" y="67" width="1623" height="1223" extended-state="0" />
+    <frame x="711" y="81" width="1623" height="1223" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -598,7 +598,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="358" selection-end="358" vertical-scroll-proportion="0.18038853" vertical-offset="0" max-vertical-offset="1081">
+        <state line="28" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.38852915" vertical-offset="0" max-vertical-offset="1081">
           <folding />
         </state>
       </provider>
