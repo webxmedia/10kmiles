@@ -3,8 +3,10 @@
 @section('content')
     <h1>My vehicles</h1>
 
+    <table class="table table-striped table-hover">
     @foreach ($users as $user)
-        <li>{{ $user->username }}</li>
+        <tr><td>{{ $user->username }}</td></tr>
     @endforeach
+    </table>
 
 @stop
