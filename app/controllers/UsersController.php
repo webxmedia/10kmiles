@@ -67,6 +67,11 @@ class UsersController extends \BaseController {
 	 */
 	public function create()
 	{
+        $user = new User;
+        $user->username = 'new user';
+        $user->password = Hash::make('password');
+        $user->save();
+
         return View::make('users/create');
 	}
 
