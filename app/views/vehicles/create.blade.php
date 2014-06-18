@@ -1,7 +1,7 @@
-@extends('layouts.default')
+@extends('layouts.users')
 
 @section('content')
-    <h1>Add vehcile</h1>
+    <h1>Add vehicle</h1>
     <br />
 
     <div class="panel panel-default">

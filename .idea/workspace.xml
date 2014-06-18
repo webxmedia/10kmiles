@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a3ba8a5-edfc-455b-b2ff-18fd4648cef5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/VehiclesController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/vehicles/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/vehicles/index.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/vehicles.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/vehicles/create.blade.php" afterPath="$PROJECT_DIR$/app/views/vehicles/create.blade.php" />
     </list>
     <ignored path="10kmiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="79" selection-end="79" vertical-scroll-proportion="0.07088847" vertical-offset="0" max-vertical-offset="1058">
+            <state line="9" column="5" selection-start="167" selection-end="167" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -77,7 +73,7 @@
       <file leaf-file-name="create.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -92,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VehiclesController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="VehiclesController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/VehiclesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="40" selection-start="637" selection-end="637" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1485">
+            <state line="37" column="40" selection-start="637" selection-end="637" vertical-scroll-proportion="0.5245747" vertical-offset="0" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -149,9 +145,9 @@
         <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/app/views/users/create.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/VehiclesController.php" />
-        <option value="$PROJECT_DIR$/app/views/vehicles/create.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/vehicles/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/vehicles/create.blade.php" />
       </list>
     </option>
   </component>
@@ -629,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/vehicles/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="25" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1455">
@@ -650,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/VehiclesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="637" selection-end="637" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="69" selection-end="154" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="225">
@@ -666,7 +648,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="79" selection-end="79" vertical-scroll-proportion="0.07088847" vertical-offset="0" max-vertical-offset="1058">
+        <state line="9" column="5" selection-start="167" selection-end="167" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/vehicles/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1058">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/VehiclesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="40" selection-start="637" selection-end="637" vertical-scroll-proportion="0.5245747" vertical-offset="0" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>
