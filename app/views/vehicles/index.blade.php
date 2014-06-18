@@ -15,9 +15,11 @@
             <tr>
                 <td><img src="http://placehold.it/25x25" alt="..." class="img-rounded"></td>
                 <td>{{ $user->username }}</td>
-                <td>Petrol}</td>
+                <td>{{ $user->username }}</td>
+                <td>Petrol</td>
                 <td>
                     <button type="button" class="btn btn-danger btn-sm"><i class="fa fa-times"></i></button>&nbsp;
+                    <button type="button" class="btn btn-warning btn-sm"><i class="fa fa-minus-circle"></i></button>&nbsp;
                     <button type="button" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></button>
                 </td>
             </tr>
