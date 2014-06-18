@@ -20,7 +20,7 @@
 
         <div class="form-group">
             <div class="col-sm-10">
-                {{ Form::submit('Create user') }}
+                {{ Form::submit('Create user', array('class' => 'btn btn-default')) }}
             </div>
         </div>
     {{ Form::close() }}
