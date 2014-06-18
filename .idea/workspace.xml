@@ -64,7 +64,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="197" selection-start="578" selection-end="578" vertical-scroll-proportion="0.215311" vertical-offset="0" max-vertical-offset="1045">
+            <state line="20" column="5" selection-start="643" selection-end="643" vertical-scroll-proportion="0.28763184" vertical-offset="0" max-vertical-offset="1043">
               <folding />
             </state>
           </provider>
@@ -662,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/vehicles/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="197" selection-start="578" selection-end="578" vertical-scroll-proportion="0.215311" vertical-offset="0" max-vertical-offset="1045">
+        <state line="20" column="5" selection-start="643" selection-end="643" vertical-scroll-proportion="0.28763184" vertical-offset="0" max-vertical-offset="1043">
           <folding />
         </state>
       </provider>
