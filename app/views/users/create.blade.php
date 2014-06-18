@@ -1,7 +1,7 @@
 @extends('layouts.users')
 
 @section('content')
-<h1>Create new user</h1>
+<h1>Create new account</h1>
 
     {{ Form::open(['route' => 'users.store', 'class' => 'form-horizontal']) }}
         <div class="form-group">
