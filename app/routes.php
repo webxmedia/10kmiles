@@ -30,3 +30,4 @@ Route::get('journeys', 'UsersController@journeys');
 
 Route::resource('users', 'UsersController');
 Route::resource('vehicles', 'VehiclesController');
+Route::resource('journeys', 'JourneysController');
