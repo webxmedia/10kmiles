@@ -1,16 +1,16 @@
 @extends('layouts.default')
 
 @section('content')
-    <h1>My journeys</h1>
+    <h1>My Journeys</h1>
 
     <table class="table table-striped table-hover">
         <tr>
             <th style="width: 30px;">&nbsp;</td>
-            <th>Make</td>
-            <th>Model</td>
-            <th>Fuel</td>
+            <th>Vehicle</td>
+            <th>Purpose</td>
             <th>Mileage</td>
-            <th>Cost</td>
+            <th>Date</td>
+            <th>Return</td>
             <th style="width: 130px;">&nbsp;</td>
         </tr>
         @foreach ($users as $user)
