@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-    <h1>Admin</h1>
+    <h1>Admins</h1>
 
 @stop
