@@ -29,7 +29,7 @@ Route::get('reports', 'UsersController@reports');
 
 Route::get('journeys', 'JourneysController@index');
 
-Route::resource('admins', 'AdminsController');
+Route::resource('admins', 'AdminController');
 Route::resource('journeys', 'JourneysController');
 Route::resource('users', 'UsersController');
 Route::resource('vehicles', 'VehiclesController');
