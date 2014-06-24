@@ -20,18 +20,6 @@ class UsersController extends \BaseController {
      *
      * @return Response
      */
-    public function vehicles()
-    {
-        //$users = User::all();
-        return View::make('users/vehicles');
-    }
-
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
     public function team()
     {
         return View::make('users/team');
@@ -46,17 +34,6 @@ class UsersController extends \BaseController {
     public function reports()
     {
         return View::make('users/reports');
-    }
-
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
-    public function journeys()
-    {
-        return View::make('users/journeys');
     }
 
 
