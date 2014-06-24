@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-    <h1>Users</h1>
+    <h1>Team</h1>
 
 <table class="table table-striped table-hover">
     <tr>
