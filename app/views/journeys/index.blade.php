@@ -5,13 +5,13 @@
 
     <table class="table table-striped table-hover">
         <tr>
-            <th style="width: 30px;">&nbsp;</td>
-            <th>Vehicle</td>
-            <th>Purpose</td>
-            <th>Mileage</td>
-            <th>Date</td>
-            <th>Return</td>
-            <th style="width: 130px;">&nbsp;</td>
+            <th style="width: 30px;">&nbsp;</th>
+            <th>Vehicle</th>
+            <th>Purpose</th>
+            <th>Mileage</th>
+            <th>Date</th>
+            <th>Return</th>
+            <th style="width: 130px;">&nbsp;</th>
         </tr>
         @foreach ($users as $user)
             <tr>
