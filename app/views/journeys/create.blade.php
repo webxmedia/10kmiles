@@ -70,7 +70,7 @@
                 <div class="col-xs-12">
                     <div class="form-group">
                         {{ Form::submit('Save journey', array('class' => 'btn btn-success')) }}
-                        {{ Form::button('Save as template', array('class' => 'btn btn-info')) }}
+                        {{ Form::button('Save as template', array('class' => 'btn btn-info pull-right')) }}
                     </div>
                 </div>
             </div>
