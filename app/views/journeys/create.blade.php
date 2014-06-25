@@ -83,13 +83,13 @@
                 </div>
                 <div class="col-xs-4">
                     <div class="form-group">
-                        {{ Form::label('start-date', 'Start date: ', array('class' => 'col-sm-2 control-label')) }}
+                        {{ Form::label('start-date', 'Start date: ', array('class' => 'control-label')) }}
                         {{ Form::text('start-date', null, array('class' => 'form-control')) }}
                     </div>
                 </div>
                 <div class="col-xs-4">
                     <div class="form-group">
-                        {{ Form::label('end-date', 'End date: ', array('class' => 'col-sm-2 control-label')) }}
+                        {{ Form::label('end-date', 'End date: ', array('class' => 'control-label')) }}
                         {{ Form::text('end-date', null, array('class' => 'form-control')) }}
                     </div>
                 </div>
