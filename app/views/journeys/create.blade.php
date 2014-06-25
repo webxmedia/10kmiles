@@ -117,6 +117,9 @@
                     <div class="form-group">
                         {{ Form::label('mileage', 'Mileage: ', array('class' => 'control-label')) }}
                         {{ Form::text('mileage', null, array('class' => 'form-control')) }}
+                        <label>
+                            <input type="checkbox" value=""> Return journey
+                        </label>
                     </div>
                 </div>
                 <div class="col-xs-9">
