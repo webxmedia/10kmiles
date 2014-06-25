@@ -20,13 +20,15 @@
 
             <div class="form-group">
                 {{ Form::label('driver', 'Driver: ', array('class' => 'col-sm-2 control-label')) }}
-                <select class="form-control">
-                    <option>Matt</option>
-                    <option>Mark</option>
-                    <option>Phil</option>
-                    <option>Cesc</option>
-                    <option>Jo</option>
-                </select>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option>Matt</option>
+                        <option>Mark</option>
+                        <option>Phil</option>
+                        <option>Cesc</option>
+                        <option>Jo</option>
+                    </select>
+                </div>
             </div>
 
             <div class="form-group">
@@ -51,11 +53,13 @@
             </div>
 
             <div class="form-group">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="">
-                        Return journey
-                    </label>
+                <div class="col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">
+                            Return journey
+                        </label>
+                    </div>
                 </div>
             </div>
 
