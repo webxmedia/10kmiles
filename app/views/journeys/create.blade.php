@@ -78,16 +78,33 @@
             {{ Form::close() }}
 
             <div class="row">
-                <div class="col-xs-4">
-                    <input type="text" class="form-control" placeholder=".col-xs-2">
+                <div class="col-xs-3">
+                    {{ Form::label('vehicle', 'Vehicle: ', array('class' => 'control-label')) }}
+                    <select class="form-control">
+                        <option>Astra</option>
+                        <option>BMW</option>
+                        <option>Audi</option>
+                        <option>Jaguar</option>
+                        <option>Ford</option>
+                    </select>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-3">
+                    {{ Form::label('driver', 'Driver: ', array('class' => 'control-label')) }}
+                    <select class="form-control">
+                        <option>Matt</option>
+                        <option>Mark</option>
+                        <option>Phil</option>
+                        <option>Cesc</option>
+                        <option>Jo</option>
+                    </select>
+                </div>
+                <div class="col-xs-3">
                     <div class="form-group">
                         {{ Form::label('start-date', 'Start date: ', array('class' => 'control-label')) }}
                         {{ Form::text('start-date', null, array('class' => 'form-control')) }}
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-3">
                     <div class="form-group">
                         {{ Form::label('end-date', 'End date: ', array('class' => 'control-label')) }}
                         {{ Form::text('end-date', null, array('class' => 'form-control')) }}
