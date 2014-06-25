@@ -10,7 +10,7 @@
         </div>
         <div class="panel-body">
             <br />
-            {{ Form::open(['route' => 'vehicles.store', 'class' => 'form-horizontal']) }}
+            {{ Form::open(['route' => 'vehicles.store', 'class' => '']) }}
             <div class="form-group">
                 {{ Form::label('vehicle', 'Vehicle: ', array('class' => 'col-sm-2 control-label')) }}
                 <div class="col-sm-10">
@@ -84,17 +84,13 @@
                 <div class="col-xs-4">
                     <div class="form-group">
                         {{ Form::label('start-date', 'Start date: ', array('class' => 'col-sm-2 control-label')) }}
-                        <div class="col-sm-10">
-                            {{ Form::text('start-date', null, array('class' => 'form-control')) }}
-                        </div>
+                        {{ Form::text('start-date', null, array('class' => 'form-control')) }}
                     </div>
                 </div>
                 <div class="col-xs-4">
                     <div class="form-group">
                         {{ Form::label('end-date', 'End date: ', array('class' => 'col-sm-2 control-label')) }}
-                        <div class="col-sm-10">
-                            {{ Form::text('end-date', null, array('class' => 'form-control')) }}
-                        </div>
+                        {{ Form::text('end-date', null, array('class' => 'form-control')) }}
                     </div>
                 </div>
             </div>

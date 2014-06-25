@@ -82,7 +82,7 @@
       <file leaf-file-name="create.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/journeys/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="26" selection-start="3676" selection-end="3676" vertical-scroll-proportion="0.8654708" vertical-offset="370" max-vertical-offset="1815">
+            <state line="77" column="12" selection-start="3059" selection-end="3059" vertical-scroll-proportion="0.5650224" vertical-offset="525" max-vertical-offset="1755">
               <folding />
             </state>
           </provider>
@@ -822,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/journeys/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="26" selection-start="3676" selection-end="3676" vertical-scroll-proportion="0.8654708" vertical-offset="370" max-vertical-offset="1815">
+        <state line="77" column="12" selection-start="3059" selection-end="3059" vertical-scroll-proportion="0.5650224" vertical-offset="525" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
