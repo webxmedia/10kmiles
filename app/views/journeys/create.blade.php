@@ -14,7 +14,13 @@
             <div class="form-group">
                 {{ Form::label('vehicle', 'Vehicle: ', array('class' => 'col-sm-2 control-label')) }}
                 <div class="col-sm-10">
-                    {{ Form::text('vehicle', null, array('class' => 'form-control')) }}
+                    <select class="form-control">
+                        <option>Astra</option>
+                        <option>BMW</option>
+                        <option>Audi</option>
+                        <option>Jaguar</option>
+                        <option>Ford</option>
+                    </select>
                 </div>
             </div>
 
@@ -70,6 +76,18 @@
                 </div>
             </div>
             {{ Form::close() }}
+
+            <div class="row">
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" placeholder=".col-xs-2">
+                </div>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" placeholder=".col-xs-3">
+                </div>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" placeholder=".col-xs-4">
+                </div>
+            </div>
 
         </div>
     </div>
