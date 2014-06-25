@@ -82,10 +82,20 @@
                     <input type="text" class="form-control" placeholder=".col-xs-2">
                 </div>
                 <div class="col-xs-4">
-                    <input type="text" class="form-control" placeholder=".col-xs-3">
+                    <div class="form-group">
+                        {{ Form::label('start-date', 'Start date: ', array('class' => 'col-sm-2 control-label')) }}
+                        <div class="col-sm-10">
+                            {{ Form::text('start-date', null, array('class' => 'form-control')) }}
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-4">
-                    <input type="text" class="form-control" placeholder=".col-xs-4">
+                    <div class="form-group">
+                        {{ Form::label('end-date', 'End date: ', array('class' => 'col-sm-2 control-label')) }}
+                        <div class="col-sm-10">
+                            {{ Form::text('end-date', null, array('class' => 'form-control')) }}
+                        </div>
+                    </div>
                 </div>
             </div>
 
