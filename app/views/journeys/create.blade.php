@@ -11,66 +11,6 @@
         <div class="panel-body">
             <br />
             {{ Form::open(['route' => 'vehicles.store', 'class' => '']) }}
-            <div class="form-group">
-                {{ Form::label('vehicle', 'Vehicle: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    <select class="form-control">
-                        <option>Astra</option>
-                        <option>BMW</option>
-                        <option>Audi</option>
-                        <option>Jaguar</option>
-                        <option>Ford</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="form-group">
-                {{ Form::label('driver', 'Driver: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    <select class="form-control">
-                        <option>Matt</option>
-                        <option>Mark</option>
-                        <option>Phil</option>
-                        <option>Cesc</option>
-                        <option>Jo</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="form-group">
-                {{ Form::label('journey', 'Journey: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    {{ Form::text('journey', null, array('class' => 'form-control')) }}
-                </div>
-            </div>
-
-            <div class="form-group">
-                {{ Form::label('start-date', 'Start date: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    {{ Form::text('start-date', null, array('class' => 'form-control')) }}
-                </div>
-            </div>
-
-            <div class="form-group">
-                {{ Form::label('end-date', 'End date: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    {{ Form::text('end-date', null, array('class' => 'form-control')) }}
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-sm-10">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" value="">
-                            Return journey
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-
-            {{ Form::close() }}
 
             <div class="row">
                 <div class="col-xs-3">
@@ -134,6 +74,8 @@
                     </div>
                 </div>
             </div>
+
+            {{ Form::close() }}
 
         </div>
     </div>
