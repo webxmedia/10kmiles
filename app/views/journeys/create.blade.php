@@ -36,13 +36,19 @@
                 <div class="col-xs-3">
                     <div class="form-group">
                         {{ Form::label('start-date', 'Start date: ', array('class' => 'control-label')) }}
-                        {{ Form::text('start-date', null, array('class' => 'form-control')) }}
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xs-3">
                     <div class="form-group">
                         {{ Form::label('end-date', 'End date: ', array('class' => 'control-label')) }}
-                        {{ Form::text('end-date', null, array('class' => 'form-control')) }}
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        </div>
                     </div>
                 </div>
             </div>
