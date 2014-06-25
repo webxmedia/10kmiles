@@ -9,7 +9,8 @@ class JourneysController extends \BaseController {
 	 */
 	public function index()
 	{
-        return View::make('journeys/index');
+        $users = User::all();
+        return View::make('journeys/index', ['users' => $users]);
 
 	}
 
