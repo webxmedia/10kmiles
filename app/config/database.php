@@ -44,6 +44,8 @@ return array(
 	|
 	*/
 
+    // 'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
+
 	'connections' => array(
 
 		'sqlite' => array(
@@ -55,7 +57,6 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '127.0.0.1',
-            'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
 			'database'  => 'forge',
 			'username'  => 'forge',
 			'password'  => 'PbK1ipKcDoKNnPPkL0yw',
