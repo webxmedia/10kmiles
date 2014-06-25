@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a3ba8a5-edfc-455b-b2ff-18fd4648cef5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/journeys/create.blade.php" afterPath="$PROJECT_DIR$/app/views/journeys/create.blade.php" />
-    </list>
+    <list default="true" id="2a3ba8a5-edfc-455b-b2ff-18fd4648cef5" name="Default" comment="" />
     <ignored path="10kmiles.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +80,7 @@
       <file leaf-file-name="create.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/journeys/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="30" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.44843048" vertical-offset="115" max-vertical-offset="1620">
+            <state line="53" column="18" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.6098655" vertical-offset="115" max-vertical-offset="1620">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -170,8 +168,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="101" />
+    <option name="x" value="222" />
+    <option name="y" value="66" />
     <option name="width" value="2220" />
     <option name="height" value="1233" />
   </component>
@@ -436,7 +434,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="101" width="2220" height="1233" extended-state="0" />
+    <frame x="222" y="66" width="2220" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -824,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/journeys/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="30" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.44843048" vertical-offset="115" max-vertical-offset="1620">
+        <state line="53" column="18" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.6098655" vertical-offset="115" max-vertical-offset="1620">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
