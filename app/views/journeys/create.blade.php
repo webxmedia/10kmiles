@@ -20,9 +20,13 @@
 
             <div class="form-group">
                 {{ Form::label('driver', 'Driver: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    {{ Form::text('driver', null, array('class' => 'form-control')) }}
-                </div>
+                <select class="form-control">
+                    <option>Matt</option>
+                    <option>Mark</option>
+                    <option>Phil</option>
+                    <option>Cesc</option>
+                    <option>Jo</option>
+                </select>
             </div>
 
             <div class="form-group">
@@ -47,9 +51,11 @@
             </div>
 
             <div class="form-group">
-                {{ Form::label('return', 'Return: ', array('class' => 'col-sm-2 control-label')) }}
-                <div class="col-sm-10">
-                    {{ Form::text('return', null, array('class' => 'form-control')) }}
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="">
+                        Return journey
+                    </label>
                 </div>
             </div>
 
