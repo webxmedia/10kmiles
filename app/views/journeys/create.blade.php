@@ -69,12 +69,7 @@
                 </div>
             </div>
 
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    {{ Form::submit('Save journey', array('class' => 'btn btn-success')) }}
-                    {{ Form::button('Save as template', array('class' => 'btn btn-info')) }}
-                </div>
-            </div>
+
             {{ Form::close() }}
 
             <div class="row">
@@ -117,6 +112,7 @@
                     <div class="form-group">
                         {{ Form::label('mileage', 'Mileage: ', array('class' => 'control-label')) }}
                         {{ Form::text('mileage', null, array('class' => 'form-control')) }}
+                        <div style="height: 5px;"></div>
                         <label>
                             <input type="checkbox" value=""> Return journey
                         </label>
@@ -126,6 +122,15 @@
                     <div class="form-group">
                         {{ Form::label('journey', 'Journey: ', array('class' => 'control-label')) }}
                         {{ Form::text('journey', null, array('class' => 'form-control')) }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        {{ Form::submit('Save journey', array('class' => 'btn btn-success')) }}
+                        {{ Form::button('Save as template', array('class' => 'btn btn-info')) }}
                     </div>
                 </div>
             </div>
