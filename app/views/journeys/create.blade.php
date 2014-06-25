@@ -51,7 +51,10 @@
                 <div class="col-xs-3">
                     <div class="form-group">
                         {{ Form::label('mileage', 'Mileage: ', array('class' => 'control-label')) }}
-                        {{ Form::text('mileage', null, array('class' => 'form-control')) }}
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-addon">Mi</span>
+                        </div>
                         <div style="height: 5px;"></div>
                         <label>
                             <input type="checkbox" value=""> Return journey
