@@ -112,6 +112,21 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="form-group">
+                        {{ Form::label('mileage', 'Mileage: ', array('class' => 'control-label')) }}
+                        {{ Form::text('mileage', null, array('class' => 'form-control')) }}
+                    </div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="form-group">
+                        {{ Form::label('journey', 'Journey: ', array('class' => 'control-label')) }}
+                        {{ Form::text('journey', null, array('class' => 'form-control')) }}
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
